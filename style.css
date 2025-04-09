@@ -1,0 +1,23 @@
+canvas { 
+    display: block; 
+}
+body { 
+    margin: 0; 
+    overflow: hidden; 
+}
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}

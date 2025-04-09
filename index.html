@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voxelize</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="ui">
+        <label for="object-select">Choose an object: </label>
+        <select id="object-select">
+            <option value="heart">Heart</option>
+            <option value="sphere">Sphere</option>
+            <option value="romboid">Romboid</option>
+            <option value="ring">Ring</option>
+            <option value="cone">Cone</option>
+            <option value="monkey">Monkey</option>
+        </select>
+
+        <label for="object-select">Voxel size: </label>
+        <select id="size-select">
+            <option value="1">1</option>
+            <option value="2">0.5</option>
+            <option value="3">0.25</option>
+            <option value="4">0.125</option>
+            <option value="5">0.0625</option>
+            <option value="6" selected="selected">~0.032</option>
+            <option value="7">~0.016</option>
+            <option value="8">~0.008</option>
+            <option value="9">~0.004</option>
+            <option value="10">~0.002</option>
+        </select>
+
+        <button id="voxelize">Voxelize</button>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
