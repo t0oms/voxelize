@@ -7,12 +7,12 @@ let scene, camera, renderer, currentObject, controls;
 let voxelsPerUnit = 6;
 
 const models = {
-    heart: '/models/heart.glb',
-    romboid: '/models/romboid.glb',
-    ring: '/models/ring.glb',
-    cone: '/models/cone.glb',
-    monkey: '/models/monkey.glb',
-    sphere: '/models/sphere.glb',
+    heart: '/voxelize/models/heart.glb',
+    romboid: '/voxelize/models/romboid.glb',
+    ring: '/voxelize/models/ring.glb',
+    cone: '/voxelize/models/cone.glb',
+    monkey: '/voxelize/models/monkey.glb',
+    sphere: '/voxelize/models/sphere.glb',
 };
 
 loadModel('heart'); 
